@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<AnalysisLevel>latest</AnalysisLevel>
+		<RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
+		<Version Condition=" '$(BUILD_BUILDNUMBER)' == '' ">0.0.0.1</Version>
+		<Version Condition=" '$(BUILD_BUILDNUMBER)' != '' ">$(BUILD_BUILDNUMBER)</Version>
+		<AssemblyTitle Condition=" '$(BUILD_NRM_BUILDNAME)' == '' ">Local Dev Build</AssemblyTitle>
+		<AssemblyTitle Condition=" '$(BUILD_NRM_BUILDNAME)' != '' ">$(BUILD_NRM_BUILDNAME)</AssemblyTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <DocumentationFile>.\AutoMapper.Bugfix.Service.xml</DocumentationFile>
+	  <NoWarn>1701;1702</NoWarn>
+	  <WarningLevel>5</WarningLevel>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <DocumentationFile>.\AutoMapper.Bugfix.Service.xml</DocumentationFile>
+	  <WarningLevel>5</WarningLevel>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<NSwagGenerateExceptionClasses>true</NSwagGenerateExceptionClasses>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Dto\PermissionDtos\**" />
+	  <Compile Remove="Dto\UserProfileSync\**" />
+	  <Compile Remove="Listeners\**" />
+	  <EmbeddedResource Remove="Dto\PermissionDtos\**" />
+	  <EmbeddedResource Remove="Dto\UserProfileSync\**" />
+	  <EmbeddedResource Remove="Listeners\**" />
+	  <None Remove="Dto\PermissionDtos\**" />
+	  <None Remove="Dto\UserProfileSync\**" />
+	  <None Remove="Listeners\**" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Open-XML-SDK" Version="2.9.1" />
+		<PackageReference Include="Quartz" Version="3.8.0" />
+		<PackageReference Include="Quartz.AspNetCore" Version="3.8.0" />
+		<PackageReference Include="Quartz.Serialization.Json" Version="3.8.0" />
+		<PackageReference Include="Serilog" Version="3.1.1" />
+	</ItemGroup>
+</Project>

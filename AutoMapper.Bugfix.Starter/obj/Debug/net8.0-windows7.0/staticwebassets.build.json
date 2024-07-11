@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "p6Ajaiz6hEOmCmUNGaxjeuWiXIlAiMFDvQ9lDt12nqA=",
+  "Source": "AutoMapper.Bugfix.Starter",
+  "BasePath": "_content/AutoMapper.Bugfix.Starter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AutoMapper.Bugfix.Starter\\wwwroot",
+      "Source": "AutoMapper.Bugfix.Starter",
+      "ContentRoot": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\",
+      "BasePath": "_content/AutoMapper.Bugfix.Starter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\lib\\jQuery\\jquery-3.5.0.js",
+      "SourceId": "AutoMapper.Bugfix.Starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\",
+      "BasePath": "_content/AutoMapper.Bugfix.Starter",
+      "RelativePath": "lib/jQuery/jquery-3.5.0.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jQuery\\jquery-3.5.0.js"
+    },
+    {
+      "Identity": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\swagger\\custom.css",
+      "SourceId": "AutoMapper.Bugfix.Starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\",
+      "BasePath": "_content/AutoMapper.Bugfix.Starter",
+      "RelativePath": "swagger/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\custom.css"
+    },
+    {
+      "Identity": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\swagger\\indexCustom.html",
+      "SourceId": "AutoMapper.Bugfix.Starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\",
+      "BasePath": "_content/AutoMapper.Bugfix.Starter",
+      "RelativePath": "swagger/indexCustom.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\indexCustom.html"
+    }
+  ]
+}

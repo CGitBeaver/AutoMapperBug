@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\lib\\jQuery\\jquery-3.5.0.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery\\jquery-3.5.0.js"
+    },
+    {
+      "Id": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\swagger\\custom.css",
+      "PackagePath": "staticwebassets\\swagger\\custom.css"
+    },
+    {
+      "Id": "E:\\_tfs\\AutoMapperBugfix\\AutoMapper.Bugfix.Starter\\wwwroot\\swagger\\indexCustom.html",
+      "PackagePath": "staticwebassets\\swagger\\indexCustom.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows7.0\\staticwebassets\\msbuild.AutoMapper.Bugfix.Starter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows7.0\\staticwebassets\\msbuild.build.AutoMapper.Bugfix.Starter.props",
+      "PackagePath": "build\\AutoMapper.Bugfix.Starter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows7.0\\staticwebassets\\msbuild.buildMultiTargeting.AutoMapper.Bugfix.Starter.props",
+      "PackagePath": "buildMultiTargeting\\AutoMapper.Bugfix.Starter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows7.0\\staticwebassets\\msbuild.buildTransitive.AutoMapper.Bugfix.Starter.props",
+      "PackagePath": "buildTransitive\\AutoMapper.Bugfix.Starter.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

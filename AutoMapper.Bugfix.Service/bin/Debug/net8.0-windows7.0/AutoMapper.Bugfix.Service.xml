@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoMapper.Bugfix.Service</name>
+    </assembly>
+    <members>
+        <member name="P:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.Count">
+            <inheritdoc/>
+        </member>
+        <member name="P:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.IsReadOnly">
+            <inheritdoc/>
+        </member>
+        <member name="M:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.Add(AutoMapper.Bugfix.Service.Entities.AutoMappingSharedClass)">
+            <inheritdoc/>
+        </member>
+        <member name="M:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.Clear">
+            <inheritdoc/>
+        </member>
+        <member name="M:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.Contains(AutoMapper.Bugfix.Service.Entities.AutoMappingSharedClass)">
+            <inheritdoc/>
+        </member>
+        <member name="M:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.CopyTo(AutoMapper.Bugfix.Service.Entities.AutoMappingSharedClass[],System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.GetEnumerator">
+            <inheritdoc/>
+        </member>
+        <member name="M:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.System#Collections#IEnumerable#GetEnumerator">
+            <inheritdoc/>
+        </member>
+        <member name="M:AutoMapper.Bugfix.Service.Entities.AutoMappingSharedCollection.Remove(AutoMapper.Bugfix.Service.Entities.AutoMappingSharedClass)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

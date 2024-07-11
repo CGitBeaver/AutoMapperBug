@@ -1,0 +1,9 @@
+<Project>
+    <ItemGroup Condition="'$(Configuration)'=='Debug'"> 
+        <EditorConfigFiles Include="..\debug.editorconfig" Link=".editorconfig"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(Configuration)'=='Release'">
+        <EditorConfigFiles Include="..\release.editorconfig" Link=".editorconfig"/>
+    </ItemGroup>
+</Project>

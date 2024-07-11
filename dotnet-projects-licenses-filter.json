@@ -1,0 +1,16 @@
+[
+  "Cgi.Egov360RecMgmt.RecordService.EF.DevTools.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.EF.ZZZTest.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.RestAPIDB2.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.RestAPILB1.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.RestAPILB2.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.ApplicationCore.Test.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.Infrastructure.Test.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.RestAPI.Test.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.Web.Test.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.IntegrationServiceMock.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.CodeRules.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.EF.Context.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.DataAccess.Model.csproj",
+  "Cgi.Egov360RecMgmt.RecordService.DataAccess.csproj"
+]

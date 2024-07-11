@@ -1,0 +1,220 @@
+[*.cs]
+
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+#-----------------------------------------------------------------------------------
+# Visual Studio Messages
+
+# IDE0016: Null check can be simplified
+dotnet_style_coalesce_expression = true:error
+
+# IDE0028: Collection initialization can be simplified
+dotnet_style_collection_initializer = false:silent
+
+# IDE0029: Null check can be simplified
+dotnet_diagnostic.IDE0029.severity = error
+
+# IDE0017: Object initialization can be simplified
+dotnet_style_object_initializer = false:silent
+
+# IDE0041: Null check can be simplified
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:error
+
+# IDE0075: Expression can be simplified
+dotnet_style_prefer_simplified_boolean_expressions = true:error
+
+# IDE0044: Make field readonly
+dotnet_style_readonly_field = true:error
+
+# IDE0060: Remove unused parameters
+dotnet_code_quality_unused_parameters = all:silent
+
+# IDE0020: Use pattern matching
+csharp_style_pattern_matching_over_is_with_cast_check = true:error
+
+# IDE0066: Use switch expression
+csharp_style_prefer_switch_expression = true:error
+
+# IDE0063: Use using declaration
+csharp_prefer_simple_using_statement = false:silent
+
+# IDE0042: Variable declaration can be deconstructed
+csharp_style_deconstructed_variable_declaration = true:error
+
+# IDE0018: Variable declaration can be inlined
+csharp_style_inlined_variable_declaration = true:error
+
+# IDE0059: Unnecessary assignment of a value
+csharp_style_unused_value_assignment_preference = discard_variable:error
+
+# IDE0052: Remove unread private members
+dotnet_diagnostic.IDE0052.severity = error
+
+# IDE0051: Remove unused private members
+dotnet_diagnostic.IDE0051.severity = error
+
+# IDE0038: Use pattern matching
+dotnet_diagnostic.IDE0038.severity = error
+
+# IDE1006: Naming style violation
+dotnet_diagnostic.IDE1006.severity = error
+
+
+#-----------------------------------------------------------------------------------
+# FxCorp Code-Analysis Rules
+
+# CA1000: Do not declare static members on genreric types
+dotnet_diagnostic.CA1000.severity = error
+
+# CA1031: Do not catch general exception types
+dotnet_diagnostic.CA1031.severity = error
+
+# CA1032: Implement standard exception constructor
+dotnet_diagnostic.CA1032.severity = error
+
+# CA1034: Nested type should not be visible
+dotnet_diagnostic.CA1034.severity = error
+
+# CA1051: Do not declare visible instance fields
+dotnet_diagnostic.CA1051.severity = error
+
+# CA1052: Static holder types should be static or NotInheritable
+dotnet_diagnostic.CA1052.severity = error
+
+# CA1062: Validate arguments of public methods
+dotnet_diagnostic.CA1062.severity = error
+
+# CA1063: Implement IDisposeable correctly
+dotnet_diagnostic.CA1063.severity = error
+
+# CA1067: Override Equals when implementing IEquatable
+dotnet_diagnostic.CA1067.severity = error
+
+# CA1303: Do not pass literals as localized parameters
+dotnet_diagnostic.CA1303.severity = silent
+
+# CA1304: Specify CultureInfo
+dotnet_diagnostic.CA1304.severity = error
+
+# CA1305: Specify IFormatProvider
+dotnet_diagnostic.CA1305.severity = error
+
+# CA1307: Specify StringComparison
+dotnet_diagnostic.CA1307.severity = error
+
+# CA1707: Remove underscore from member name
+dotnet_diagnostic.CA1707.severity = error
+
+# CA1716: Type named after a keyword
+dotnet_diagnostic.CA1716.severity = error
+
+# CA1720: Identifiers should not contain type names
+dotnet_diagnostic.CA1720.severity = error
+
+# CA1724: Type name conflicts with namespace name
+dotnet_diagnostic.CA1724.severity = error
+
+# CA1801: Remove unused parameter
+dotnet_diagnostic.CA1801.severity = error
+
+# CA1812: Avoid uninstantiated internal classes
+dotnet_diagnostic.CA1812.severity = error
+
+# CA1819: Properties should not return arrays
+dotnet_diagnostic.CA1819.severity = error
+
+# CA1822: Mark members as static
+dotnet_diagnostic.CA1822.severity = error
+
+# CA1827: Do nut use Count/LongCount when Any could be used
+dotnet_diagnostic.CA1827.severity = error
+
+# CA2000: Dispose objects before losing scope
+dotnet_diagnostic.CA2000.severity = error
+
+# CA2007: Do not directly await a task
+dotnet_diagnostic.CA2007.severity = error
+
+# CA2008: Do not create tasks without passing a TaskScheduler
+dotnet_diagnostic.CA2008.severity = error
+
+# CA2100: Review SQL queries for security vulnerabilities
+dotnet_diagnostic.CA2100.severity = error
+
+# CA2208: Instantiate argument exceptions correctly
+dotnet_diagnostic.CA2208.severity = error
+
+# CA2213: Disposeable field should be disposed
+dotnet_diagnostic.CA2213.severity = error
+
+# CA2227: Collection properties should be readonly
+dotnet_diagnostic.CA2227.severity = error
+
+# CA2229: Implement serialization constructors
+dotnet_diagnostic.CA2229.severity = error
+
+#-----------------------------------------------------------------------------------
+# Compiler Analysis-Rules
+
+# CS0108: Type hides inherit member without "new" keyword
+dotnet_diagnostic.CS0108.severity = error
+
+# CS0649: Field is never assigned
+dotnet_diagnostic.CS0649.severity = error
+
+# CS0659: 'class' overrides Object.Equals(object o) but does not override Object.GetHashCode()
+dotnet_diagnostic.CS0659.severity = error
+
+# CS1573: Parameter 'parameter' has no matching param tag in the XML comment for 'parameter' (but other parameters do)
+dotnet_diagnostic.CS1573.severity = error
+
+# CS1618: Cannot create delegate with 'method' because it has a Conditional attribute
+dotnet_diagnostic.CS1618.severity = error
+
+# CS1998: Async method lacks await and runs synchronously
+dotnet_diagnostic.CS1998.severity = error
+
+# CS4014: Method does not wait since there is no await
+dotnet_diagnostic.CS4014.severity = error
+
+# CS1591: Missing XML comment for publicly visible type or member
+dotnet_diagnostic.CS1591.severity = error
+
+# CS1570: XML comment has badly formed XML
+dotnet_diagnostic.CS1570.severity = error
+
+# CS1572: XML comment has a param tag for ...
+dotnet_diagnostic.CS1572.severity = error
+
+# CS8601: Possible null reference assignment
+dotnet_diagnostic.CS8601.severity = error
+
+# CS8602: Dereference of null reference
+dotnet_diagnostic.CS8602.severity = error
+
+# CS8603: Possible null reference return
+dotnet_diagnostic.CS8603.severity = error
+
+# CS8604: Possible null reference for
+dotnet_diagnostic.CS8604.severity = error
+
+# CS8613: Nullability of reference types in return type doesn't match implicitly implemented member
+dotnet_diagnostic.CS8613.severity = error
+
+# CS8616: Nullability of reference types in return type doesn't match implemented member
+dotnet_diagnostic.CS8616.severity = error
+
+# CS8618: Non-nullable property x must contain a non-null value when exiting constructor. Consider declaring the property as nullable
+dotnet_diagnostic.CS8618.severity = error
+
+# CS8629: Nullable value type might be null
+dotnet_diagnostic.CS8629.severity = error
+
+# CS8631: Type cannot be used as type parameter
+dotnet_diagnostic.CS8631.severity = error
+
+# CS8766: Nullability of reference types in return type doesn't match implicitly implemented member (possibly because of nullability attributes)
+dotnet_diagnostic.CS8766.severity = error
+
+# CS1717: Assignment made to same variable; did you mean to assign something else?
+dotnet_diagnostic.CS1717.severity = error
